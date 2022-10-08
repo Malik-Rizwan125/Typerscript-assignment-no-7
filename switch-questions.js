@@ -116,6 +116,7 @@
 // switch (true) {
 //     case (findNumber % 2 == 0): {
 //         console.log(`The find ${findNumber} number is even`)
+//         break;
 //     }
 //     default: {
 //         console.log(`The find ${findNumber} number is odd`)
@@ -139,40 +140,40 @@
 //     }
 // }
 // 8. Write a ts program to create Simple Calculator using switch case.
-var operator = prompt("Enter operator like +, -, /, * and %");
-var operatorExpression = operator;
-var num2 = prompt("Enter any number");
-var numTwo = Number(num2);
-var num3 = prompt("Enter any number");
-var numThree = Number(num3);
-var result;
-switch (true) {
-    case (operatorExpression == '+'): {
-        result = numTwo + numThree;
-        console.log(result);
-        break;
-    }
-    case (operatorExpression == '-'): {
-        result = numTwo + numThree;
-        console.log(result);
-        break;
-    }
-    case (operatorExpression == '*'): {
-        result = numTwo + numThree;
-        console.log(result);
-        break;
-    }
-    case (operatorExpression == '/'): {
-        result = numTwo + numThree;
-        console.log(result);
-        break;
-    }
-    case (operatorExpression == '%'): {
-        result = numTwo + numThree;
-        console.log(result);
-        break;
-    }
-    default: {
-        console.log("Enter correct number and opertor");
-    }
-}
+// var operator: string | null = prompt("Enter operator like +, -, /, * and %")
+// var operatorExpression = operator;
+// var num2: string | null = prompt("Enter any number")
+// var numTwo: number = Number(num2)
+// var num3: string | null = prompt("Enter any number")
+// var numThree: number = Number(num3)
+// var result: number;
+// switch (true) {
+//     case (operatorExpression == '+'): {
+//         result = numTwo + numThree;
+//         console.log(result)
+//         break;
+//     }
+//     case (operatorExpression == '-'): {
+//         result = numTwo + numThree;
+//         console.log(result)
+//         break;
+//     }
+//     case (operatorExpression == '*'): {
+//         result = numTwo + numThree;
+//         console.log(result)
+//         break;
+//     }
+//     case (operatorExpression == '/'): {
+//         result = numTwo + numThree;
+//         console.log(result)
+//         break;
+//     }
+//     case (operatorExpression == '%'): {
+//         result = numTwo + numThree;
+//         console.log(result)
+//         break;
+//     }
+//     default: {
+//         console.log("Enter correct number and opertor")
+//     }
+// }
